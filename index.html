@@ -1,0 +1,158 @@
+     <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Disk Music - Bot de musica de discord</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- puede cambiar el ícono del sitio web cambiando el enlace href -->
+  <link rel="icon" type="image/png" href="./img/logo.gif">
+
+<!------------------------------------------------------Easter Egg------------------------------------------------------->
+                                              <!-- Beso culones -->
+<!------------------------------------------------------Easter Egg------------------------------------------------------->
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="./css/coloring.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+  <link rel="stylesheet" type="text/css" href="./css/shadow.css">
+  <link rel="stylesheet" type="text/css" href="./css/loading.css">
+  <link rel="stylesheet" type="text/css" href="./css/cursor.css">
+  <!-- fin css -->
+
+  <!-- fuente impresionante -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+  <div class="loading" id="loading-box">
+    <div class="loading-item"><div class="loading-progress"></div></div>
+  </div>
+  <main class="main">
+    <!-- barra de navegación -->
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-nav">
+          <div class="navbar-brand">
+            <!-- Puedes cambiarlo con Imagen si quieres. -->
+            <span class="navbar-brand-txt"><a class="txt-bold type-1" href="/">Disk Music</a></span>
+          </div>
+
+          <span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+          <div class="navs" id="navs">
+            <!-- Puede cambiar el valor href y el valor del texto -->
+            <div class="navs-item notbtn"><a href="Commands.html" class="txt-uppercase">Commands</a></div>
+            <div class="navs-item notbtn"><a href="#" class="txt-uppercase">Docs</a></div>
+            <div class="navs-item notbtn"><a href="#" class="txt-uppercase">Support</a></div>
+            <div class="navs-item notbtn"><a href="#" class="txt-uppercase">Invite</a></div>
+            <div class="navs-item"><a href="#"><button class="btn txt-uppercase shadow-sm">Pronto Login</button></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- extremo de la barra de navegación --> 
+      <!-- jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="jumbotron-items">
+          <div class="jumbotron-item">
+            <span class="jumbotron-t">Que es Disk Music?</span>
+            <p class="jumbotron-d">Disk Music es un bot de música desarrollado por un grupo de jovenes latino americanos
+              que tratan de traer diversión!</p>
+            <div class="jumbotron-buttons">
+              <button class="btn" onclick="location.href='#features'">Features</button>
+              <button class="btn blue" onclick="location.href='#'">Invite</button>
+            </div>
+          </div>
+          <div class="jumbotron-item">
+            <img src="./img/img.svg" alt="image"> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- final jumbotron -->
+    <span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+  </main>
+
+  <!-- características -->
+  <div class="features-box">
+    <h1 class="features-t" id="features">Un poco de información</h1>
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <img class="feature-img" src="./img/feature1.png"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">¿Con cual lenguaje de programacion se elaboró el bot?</h2>
+            <p class="feature-info-d">El bot se programo en el lenguaje javascript en su totalidad y se ulizo node.js para hacer la conexiones de discord y lo demas.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="./img/feature2.svg"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">Recaudamos informacion? (Pero una en especifico)</h2>
+            <p class="feature-info-d">Toda informacion que recolecta es de cual plataforma se busca mas y la que mas ulilizan pero esta asegurada en nuestras bases para tener la seguridad de ustedes.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="./img/feature3.svg"></img>
+          <div class="feature-info">
+            <h2 class="feature-info-t">Se actualiza la informacion cada mes para ver el apoyo que resivimos</h2>
+            <p class="feature-info-d">si, se actualiza la informacion cada mes pero esto manual por cuestiones de tiempo,falta de aprender como funcionan algunas funciones o Herramientas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin de funciones -->
+
+  <!-- servicios -->
+  <div class="services-box">
+    <h1 class="services-t" id="services">informacion del bot</h1>
+    <div class="container">
+      <div class="services">
+        <div class="service">
+          <span><i class="fas fa-server"></i> 100.000 servers</span>
+        </div>
+        <div class="service">
+          <span><i class="fas fa-users"></i> 100.000.000 users</span>
+        </div>
+        <div class="service">
+          <span><i class="fas fa-hashtag"></i> 190.000 channels</span>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- fin de los servicios --> 
+
+   <!-- pie de página -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-items">
+        <div class="footer-item">
+          <span>Partners</span>
+          <ul class="footer-ul">
+            <li><a href="#">Partner 1</a></li>
+            <li><a href="#">Partner 2</a></li>
+            <li><a href="#">Partner 3</a></li>
+            <li><a href="#">Partner 4</a></li>
+            <li><a href="#">Partner 5</a></li>
+          </ul>
+        </div>				
+        <div class="footer-item">
+          <span>Links</span>
+          <ul class="footer-ul">
+            <li><a href="https://discord.gg/6CUHkanjTz">Discord</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- pie de página -->
+  <script type="text/javascript" src="./js/script.js"></script>
+  <script type="text/javascript" src="./js/cursor.js"></script>
+</body>
+</html>
